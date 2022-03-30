@@ -16,6 +16,11 @@ app.get(`/test`, (req, res) => {
   res.render('test')
 })
 
+app.get(`/:type`, (req, res) => {
+  let { type } = req.params;
+  res.json(data[type]);
+})
+
 app.get(`/:type/:id`, (req, res) => {
   let { type, id } = req.params;
   res.json(data[type][id]);
