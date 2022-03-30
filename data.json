@@ -1,0 +1,64 @@
+{
+  "beard": {
+    "beard1": {
+      "type": "Beard",
+      "name": "Stubble",
+      "description": "A stubble of facial hair. Most women think this is sexy.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard1.png"
+    },
+    "beard2": {
+      "type": "Beard",
+      "name": "Dark short beard",
+      "description": "I forgot to shave my face... for 3 months.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard2.png"
+    },
+    "beard3": {
+      "type": "Beard",
+      "name": "Dark medium beard",
+      "description": "I'm going for that lumberjack look.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard3.png"
+    },
+    "beard4": {
+      "type": "Beard",
+      "name": "Dark mustache",
+      "description": "Burt Reynolds's got nothing on me.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard4.png"
+    },
+    "beard5": {
+      "type": "Beard",
+      "name": "Brown short beard",
+      "description": "I forgot to shave my face... for  3 months.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard5.png"
+    },
+    "beard6": {
+      "type": "Beard",
+      "name": "Brown medium beard",
+      "description": "I'm going for that lumberjack look.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard6.png"
+    },
+    "beard7": {
+      "type": "Beard",
+      "name": "Brown mustache",
+      "description": "Burt Reynolds's got nothing on me.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard7.png"
+    },
+    "beard8": {
+      "type": "Beard",
+      "name": "Blond short beard",
+      "description": "I forgot to shave my face... for  3 months.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard8.png"
+    },
+    "beard9": {
+      "type": "Beard",
+      "name": "Blond medium beard",
+      "description": "I'm going for that lumberjack look.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard9.png"
+    },
+    "beard10": {
+      "type": "Beard",
+      "name": "Blond mustache",
+      "description": "Burt Reynolds's got nothing on me.",
+      "url": "https://character-creation-api.s3.amazonaws.com/beard/beard10.png"
+    }
+  }
+}
