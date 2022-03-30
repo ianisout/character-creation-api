@@ -12,7 +12,7 @@ app.get(`/`, (req, res) => {
   res.render('index')
 })
 
-app.get(`/test`, cors(corsOptions), (req, res) => {
+app.get(`/test`, (req, res) => {
   res.render('test')
 })
 
