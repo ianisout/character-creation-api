@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API for character creation</title>
+  </head>
+  <body>
+    <script>
+      var result = [];
+
+      
+
+      function apiCall() {
+        fetch('https://character-creation-api.herokuapp.com/beard/')
+          .then((response) => response.json())
+          .then((data) => {
+            // for (var i in data) result.push([i, data[i]]);
+
+            // document.getElementById('text').innerText = JSON.stringify(result[1][1], null, 2);
+            // const img = document.getElementById('item-src');
+            // img.src = data.beard2.img_url;
+            // img.style.width = '100px';
+            // img.style.margin = '5px';
+            // img.style.background = 'white';
+            console.log(data)
+          });
+      }
+    </script>
+
+    <h1>API for character creation</h1>
+    <p>
+      This is a simple API for character creation. Items are delivered as
+      follows:
+    </p>
+    <div style="display: flex; background-color: beige;">
+
+      <img id="item-src" alt="">
+      <div id="text"></div>
+    </div>
+    <button onclick="apiCall()">test</button>
+  </body>
+</html>
