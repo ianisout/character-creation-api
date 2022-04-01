@@ -53,14 +53,22 @@ h1 {
   margin-bottom: 50px;
 }
 
-.info-section {
-  /* color: rebeccapurple; */
+.info-section pre {
+  margin-bottom: 15px;
+}
+
+#useful-h2 {
+  margin-top: 40px;
+}
+
+.info-section p {
+  margin-bottom: 40px;
 }
 
 .info-section code {
   /* padding: 10px; */
   background-color: rgb(71, 71, 71);;
-  font-size: 16px;
+  font-size: 14px;
   color: whitesmoke;
 }
 

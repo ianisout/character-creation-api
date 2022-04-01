@@ -40,26 +40,45 @@ function apiCall(param) {
 function inicio() {
   container.innerHTML = '';
   infoSection.innerHTML = `
-  <p>Delivers a list of images for character creation apps.</p>
-  <p>Building a little game? No problem. Creating avatars for the office people? Sure thing.</p>
+  <p>Delivers a list of images for character creation apps. Building a little game? No problem. <br>Creating avatars for the office people? Sure thing.</p>
+
+  <span>Test it on your terminal using fetch:</span>
   <pre>
     <code>
-    // Test it on your terminal with:
-
     fetch('https://character-creation-api.herokuapp.com/equipment/')
       .then((response) => response.json())
       .then(console.log)
     </code>
   </pre>
+  <span>Or with libraries such as <a href="https://axios-http.com/docs/intro">axios</a>:</span>
   <pre>
     <code>
-    // Or using axios:
-
-    // axios
+    axios.get('https://character-creation-api.herokuapp.com/equipment/')
+      .then(function (res) {
+        console.log(res.data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
     </code>
   </pre>
 
-  <h2>Useful information:</h2>
+  <h2 >Endpoint guide</h2>
+  <span>Enpoints are disposed in the folllowing manner:</span><br>
+  <p style="font-size: 18px; margin: 14px 6px 6px 0;"><i>https://character-creation-api.herokuapp.com/<strong>parameter</strong></p></i>
+  <p style=" margin: 14px 6px 6px 0;">which means:</p>
+  <ul>
+    <li>https://character-creation-api.herokuapp.com/<strong>beard</strong><br>will return you a json with all the beards</li>
+    <li style="margin-top: 20px;">https://character-creation-api.herokuapp.com/<strong>dress</strong><br>will return you a json with all the dresses</li>
+  </ul>
+  <p style=" margin: 14px 6px 6px 0;">and so forth. A typo passed as a parameter will cause the response to break.</p>
+  
+
+  <h2 id="useful-h2">Useful information</h2>
+  <p>Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!<br>Viva Forevis aptent taciti sociosqu ad litora torquent.Casamentiss faiz malandris se pirulitá.Leite de capivaris, <br>leite de mula manquis sem cabeça.</p>
+  
+  
+  <h2 id="useful-h2">Useful information</h2>
   <p>Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!<br>Viva Forevis aptent taciti sociosqu ad litora torquent.Casamentiss faiz malandris se pirulitá.Leite de capivaris, <br>leite de mula manquis sem cabeça.</p>
   `;
 }
