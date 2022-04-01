@@ -5,40 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>API for character creation</title>
+    <link type="text/css" rel="stylesheet" href="/style.css" />
+    <script defer src="../script.js"></script>
   </head>
-  <body>
-    <script>
-      var result = [];
-
-      
-
-      function apiCall() {
-        fetch('https://character-creation-api.herokuapp.com/beard/')
-          .then((response) => response.json())
-          .then((data) => {
-            // for (var i in data) result.push([i, data[i]]);
-
-            // document.getElementById('text').innerText = JSON.stringify(result[1][1], null, 2);
-            // const img = document.getElementById('item-src');
-            // img.src = data.beard2.img_url;
-            // img.style.width = '100px';
-            // img.style.margin = '5px';
-            // img.style.background = 'white';
-            console.log(data)
-          });
-      }
-    </script>
-
-    <h1>API for character creation</h1>
-    <p>
-      This is a simple API for character creation. Items are delivered as
-      follows:
-    </p>
-    <div style="display: flex; background-color: beige;">
-
-      <img id="item-src" alt="">
-      <div id="text"></div>
+  <body onload="inicio()">
+    <div class="side-menu">
+      <ul>
+        <li>
+          <a onclick="inicio()"><strong>Information</strong></a>
+        </li>
+        <li><a onclick="apiCall(this.innerText)">Beard</a></li>
+        <li><a onclick="apiCall(this.innerText)">Dress</a></li>
+        <li><a onclick="apiCall(this.innerText)">Equipment</a></li>
+        <li><a onclick="apiCall(this.innerText)">Eyes</a></li>
+        <li><a onclick="apiCall(this.innerText)">Glasses</a></li>
+        <li><a onclick="apiCall(this.innerText)">Hair back</a></li>
+        <li><a onclick="apiCall(this.innerText)">Hair front</a></li>
+        <li><a onclick="apiCall(this.innerText)">Mouth</a></li>
+        <li><a onclick="apiCall(this.innerText)">Pants</a></li>
+        <li><a onclick="apiCall(this.innerText)">Shield</a></li>
+        <li><a onclick="apiCall(this.innerText)">Shoe</a></li>
+        <li><a onclick="apiCall(this.innerText)">Skin color</a></li>
+        <li><a onclick="apiCall(this.innerText)">Sword</a></li>
+        <li><a onclick="apiCall(this.innerText)">Tie</a></li>
+      </ul>
     </div>
-    <button onclick="apiCall()">test</button>
+    <div class="main-container">
+      <h1>Pixel Character Creation API</h1>
+
+      <div class="info-section">
+        
+      </div>
+
+      <code class="oncoming-data"></code>
+    </div>
   </body>
 </html>
