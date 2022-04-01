@@ -120,9 +120,9 @@ pre code {
 
 ::-webkit-scrollbar {
   height: 8px;
+  width: 10px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(172, 172, 172);
 }

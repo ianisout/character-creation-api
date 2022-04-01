@@ -50,6 +50,16 @@ function inicio() {
       .then((response) => response.json())
       .then(console.log)
     </code>
-  </pre>  
+  </pre>
+  <pre>
+    <code>
+    // Or using axios:
+
+    // axios
+    </code>
+  </pre>
+
+  <h2>Useful information:</h2>
+  <p>Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!<br>Viva Forevis aptent taciti sociosqu ad litora torquent.Casamentiss faiz malandris se pirulitá.Leite de capivaris, <br>leite de mula manquis sem cabeça.</p>
   `;
 }
