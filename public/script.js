@@ -40,10 +40,13 @@ function apiCall(param) {
 function inicio() {
   container.innerHTML = '';
   infoSection.innerHTML = `
-  <p>Delivers a list of images character creation apps.</p>
+  <p>Delivers a list of images for character creation apps.</p>
+  <p>Building a little game? No problem. Creating avatars for the office people? Sure thing.</p>
   <pre>
     <code>
-    fetch('https://character-creation-api.herokuapp.com/')
+    // Test it on your terminal with:
+
+    fetch('https://character-creation-api.herokuapp.com/equipment/')
       .then((response) => response.json())
       .then(console.log)
     </code>
