@@ -1,66 +1,76 @@
 {
-  "beard": {
-    "beard1": {
+  "beard": [
+    {
+      "id": "beard1",
       "type": "Beard",
       "name": "Stubble",
       "description": "A stubble of facial hair. Most women think this is sexy.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard1.png"
     },
-    "beard2": {
+    {
+      "id": "beard2",
       "type": "Beard",
       "name": "Dark Short Beard",
       "description": "I forgot to shave my face... for 3 months.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard2.png"
     },
-    "beard3": {
+    {
+      "id": "beard3",
       "type": "Beard",
       "name": "Dark Medium Beard",
       "description": "I'm going for that lumberjack look.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard3.png"
     },
-    "beard4": {
+    {
+      "id": "beard4",
       "type": "Beard",
       "name": "Dark Mustache",
       "description": "Burt Reynolds's got nothing on me.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard4.png"
     },
-    "beard5": {
+    {
+      "id": "beard5",
       "type": "Beard",
       "name": "Brown Short Beard",
       "description": "I forgot to shave my face... for  3 months.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard5.png"
     },
-    "beard6": {
+    {
+      "id": "beard6",
       "type": "Beard",
       "name": "Brown Medium Beard",
       "description": "I'm going for that lumberjack look.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard6.png"
     },
-    "beard7": {
+    {
+      "id": "beard7",
       "type": "Beard",
       "name": "Brown Mustache",
       "description": "Burt Reynolds's got nothing on me.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard7.png"
     },
-    "beard8": {
+    {
+      "id": "beard8",
       "type": "Beard",
       "name": "Blond Short Beard",
       "description": "I forgot to shave my face... for  3 months.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard8.png"
     },
-    "beard9": {
+    {
+      "id": "beard9",
       "type": "Beard",
       "name": "Blond Medium Beard",
       "description": "I'm going for that lumberjack look.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard9.png"
     },
-    "beard10": {
+    {
+      "id": "beard10",
       "type": "Beard",
       "name": "Blond Mustache",
       "description": "Burt Reynolds's got nothing on me.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard10.png"
     }
-  },
+  ],
   "dress": {
     "dress1": {
       "type": "Dress",
