@@ -1,11 +1,14 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 8080;
+const path = require('path')
 const cors = require('cors');
+const PORT = process.env.PORT || 8080;
+
 
 app.use(cors());
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
+app.use(express.static(path.join(__dirname, 'public')));
 
 const jsonData = require('./data');
 const dataStringified = JSON.stringify(jsonData);
