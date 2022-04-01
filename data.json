@@ -71,380 +71,438 @@
       "img_url": "https://character-creation-api.s3.amazonaws.com/beard/beard10.png"
     }
   ],
-  "dress": {
-    "dress1": {
+  "dress": [
+    {
+      "id": "dress1",
       "type": "Dress",
       "name": "Red Dress",
       "description": "Professional and slick. No, it does not make you look fat.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/dress/dress1.png"
     },
-    "dress2": {
+    {
+      "id": "dress2",
       "type": "Dress",
       "name": "Pink Dress",
       "description": "A little bubble-gumish colored but great for the summer.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/dress/dress2.png"
     }
-  },
-  "equipment": {
-    "cape1": {
+  ],
+  "equipment": [
+    {
+      "id": "cape1",
       "type": "Cape",
       "name": "Purple Cape",
       "description": "It does not make you fly. DO NOT try it!",
       "img_url": "https://character-creation-api.s3.amazonaws.com/equips/cape1.png"
     },
-    "hat1": {
+    {
+      "id": "hat1",
       "type": "Hat",
       "name": "Paper Hat",
       "description": "It makes for a great cheap carnival costume.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/equips/hat1.png"
     },
-    "helmet1": {
+    {
+      "id": "helmet1",
       "type": "Helmet",
       "name": "Iron Helmet",
       "description": "It won't make the headache your boss gives you go away, but it will protect you from office-flying projectiles.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/equips/helmet1.png"
     },
-    "ironchestplate1": {
+    {
+      "id": "ironchestplate1",
       "type": "Chestplate",
       "name": "Iron Chestplate",
       "description": "Your tie will never again see a ketchup stain.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/equips/ironchestplate1.png"
     },
-    "ironleggins1": {
+    {
+      "id": "ironleggins1",
       "type": "Leggins",
       "name": "Iron Leggins",
       "description": "It makes bathroom breaks a bit more difficult. Who doesn't love a challenge?",
       "img_url": "https://character-creation-api.s3.amazonaws.com/equips/ironleggins1.png"
     },
-    "pencilspear": {
+    {
+      "id": "pencilspear",
       "type": "Spear",
       "name": "Pencil Spear",
       "description": "Hardcore caligraphy. Not very ergonomic.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/equips/pencilspear.png"
     },
-    "robe1": {
+    {
+      "id": "robe1",
       "type": "Robe",
       "name": "Purple Robe",
       "description": "It makes you invisible during video calls. Unfortunatelly! Because it looks great.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/equips/robe1.png"
     },
-    "wizardhat1": {
+    {
+      "id": "wizardhat1",
       "type": "Hat",
       "name": "Wizard Hat",
       "description": "Adds 3 speed and 10 intelligence points to your excel skills. Guaranteed.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/equips/wizardhat1.png"
     }
-  },
-  "eyes": {
-    "eyes1": {
+  ],
+  "eyes": [
+    {
+      "id": "eyes1",
       "type": "Eyes",
       "name": "Kinda catish eyes.",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/eyes/eyes1.png"
     },
-    "eyes2": {
+    {
+      "id": "eyes2",
       "type": "Eyes",
       "name": "I'm tired of your sh*t eyes.",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/eyes/eyes2.png"
     },
-    "eyes3": {
+    {
+      "id": "eyes3",
       "type": "Eyes",
       "name": "I think I've see a ghos eyes.",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/eyes/eyes3.png"
     },
-    "eyes4": {
+    {
+      "id": "eyes4",
       "type": "Eyes",
       "name": "Oh my, would you look at the time eyes.",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/eyes/eyes4.png"
     }
-  },
-  "glasses": {
-    "glasses1": {
+  ],
+  "glasses": [
+    {
+      "id": "glasses1",
       "type": "glasses",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/glasses/glasses1.png"
     }
-  },
-  "hairback": {
-    "hairback1": {
+  ],
+  "hairback": [
+    {
+      "id": "hairback1",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback1.png"
     },
-    "hairback2": {
+    {
+      "id": "hairback2",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback2.png"
     },
-    "hairback3": {
+    {
+      "id": "hairback3",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback3.png"
     },
-    "hairback4": {
+    {
+      "id": "hairback4",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback4.png"
     },
-    "hairback5": {
+    {
+      "id": "hairback5",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback5.png"
     },
-    "hairback6": {
+    {
+      "id": "hairback6",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback6.png"
     },
-    "hairback7": {
+    {
+      "id": "hairback7",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback7.png"
     },
-    "hairback8": {
+    {
+      "id": "hairback8",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback8.png"
     },
-    "hairback9": {
+    {
+      "id": "hairback9",
       "type": "Hairback",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback9.png"
     }
-  },
-  "hairfront": {
-    "hairfront1": {
+  ],
+  "hairfront": [
+    {
+      "id": "hairfront1",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront1.png"
     },
-    "hairfront2": {
+    {
+      "id": "hairfront2",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront2.png"
     },
-    "hairfront3": {
+    {
+      "id": "hairfront3",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront3.png"
     },
-    "hairfront4": {
+    {
+      "id": "hairfront4",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront4.png"
     },
-    "hairfront5": {
+    {
+      "id": "hairfront5",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront5.png"
     },
-    "hairfront6": {
+    {
+      "id": "hairfront6",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront6.png"
     },
-    "hairfront7": {
+    {
+      "id": "hairfront7",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront7.png"
     },
-    "hairfront8": {
+    {
+      "id": "hairfront8",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront8.png"
     },
-    "hairfront9": {
+    {
+      "id": "hairfront9",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront9.png"
     },
-    "hairfront10": {
+    {
+      "id": "hairfront10",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront10.png"
     },
-    "hairfront11": {
+    {
+      "id": "hairfront11",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront11.png"
     },
-    "hairfront12": {
+    {
+      "id": "hairfront12",
       "type": "Hairfront",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairfront/hairfront12.png"
     }
-  },
-  "mouth": {
-    "mouth1": {
+  ],
+  "mouth": [
+    {
+      "id": "mouth1",
       "type": "Mouth",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/mouth/mouth1.png"
     },
-    "mouth2": {
+    {
+      "id": "mouth2",
       "type": "Mouth",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/mouth/mouth2.png"
     },
-    "mouth3": {
+    {
+      "id": "mouth3",
       "type": "Mouth",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/mouth/mouth3.png"
     },
-    "mouth4": {
+    {
+      "id": "mouth4",
       "type": "Mouth",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/mouth/mouth4.png"
     }
-  },
-  "pants": {
-    "pants1": {
+  ],
+  "pants": [
+    {
+      "id": "pants1",
       "type": "Pants",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/pants/pants1.png"
     },
-    "pants2": {
+    {
+      "id": "pants2",
       "type": "Pants",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/pants/pants2.png"
     },
-    "pants3": {
+    {
+      "id": "pants3",
       "type": "Pants",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/pants/pants3.png"
     }
-  },
-  "shield": {
-    "shied1": {
+  ],
+  "shield": [
+    {
+      "id": "shied1",
       "type": "Shield",
       "name": "Wooden Shield",
       "description": "It gives you extra space when getting the good stuff on the potluck table.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/shield/shield1.png"
     }
-  },
-  "shirt": {
-    "shirt1": {
+  ],
+  "shirt": [
+    {
+      "id": "shirt1",
       "type": "Shirt",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/shirt/shirt1.png"
     },
-    "shirt2": {
+    {
+      "id": "shirt2",
       "type": "Shirt",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/shirt/shirt2.png"
     },
-    "shirt3": {
+    {
+      "id": "shirt3",
       "type": "Shirt",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/shirt/shirt3.png"
     },
-    "shirt4": {
+    {
+      "id": "shirt4",
       "type": "Shirt",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/shirt/shirt4.png"
     }
-  },
-  "shoe": {
-    "shoe1": {
+  ],
+  "shoe": [
+    {
+      "id": "shoe1",
       "type": "Shoe",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/shoe/shoe1.png"
     },
-    "shoe2": {
+    {
+      "id": "shoe2",
       "type": "Shoe",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/shoe/shoe2.png"
     },
-    "shoe3": {
+    {
+      "id": "shoe3",
       "type": "Shoe",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/shoe/shoe3.png"
     }
-  },
-  "skincolor": {
-    "skincolor1": {
+  ],
+  "skincolor": [
+    {
+      "id": "skincolor1",
       "type": "Skincolor",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/skincolor/skincolor1.png"
     },
-    "skincolor2": {
+    {
+      "id": "skincolor2",
       "type": "Skincolor",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/skincolor/skincolor2.png"
     },
-    "skincolor3": {
+    {
+      "id": "skincolor3",
       "type": "Skincolor",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/skincolor/skincolor3.png"
     },
-    "skincolor4": {
+    {
+      "id": "skincolor4",
       "type": "Skincolor",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/skincolor/skincolor4.png"
     }
-  },
-  "sword": {
-    "sword1": {
+  ],
+  "sword": [
+    {
+      "id": "sword1",
       "type": "Sword",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/sword/sword1.png"
     },
-    "staff1": {
+    {
+      "id": "staff1",
       "type": "Staff",
       "name": "Magic Staff",
       "description": "It might magically give you that promotion. Don't quote us on that.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/sword/staff1.png"
     }
-  },
-  "tie": {
-    "tie1": {
+  ],
+  "tie": [
+    {
+      "id": "tie1",
       "type": "Tie",
       "name": "",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/tie/tie1.png"
     }
-  }
+  ]
 }
