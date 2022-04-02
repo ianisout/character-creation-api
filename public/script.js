@@ -45,21 +45,18 @@ function inicio() {
   <span>Test it on your terminal using fetch:</span>
   <pre>
     <code>
-    fetch('https://character-creation-api.herokuapp.com/equipment/')
-      .then((response) => response.json())
-      .then(console.log)
+    <span class="function">fetch</span>(<span class="string">'https://character-creation-api.herokuapp.com/equipment/'</span>)
+      .<span class="function">then</span>(<span class="param">response</span> => <span class="param">response</span>.<span class="function">json</span>())
+      .<span class="function">then</span>(<span class="param">console</span>.<span class="function">log</span>)
     </code>
   </pre>
   <span>Or with libraries such as <a href="https://axios-http.com/docs/intro">axios</a>:</span>
   <pre>
     <code>
-    axios.get('https://character-creation-api.herokuapp.com/equipment/')
-      .then(function (res) {
-        console.log(res.data);
+    <span class="param">axios</span>.<span class="function">get</span>(<span class="string">'https://character-creation-api.herokuapp.com/equipment/'</span>)
+      .<span class="function">then</span>(<span class="function">function</span> (<span class="param">response</span>) {
+        <span class="param">console</span>.<span class="function">log</span>(<span class="param">response</span>.<span class="param">.data</span>);
       })
-      .catch(function (error) {
-        console.log(error);
-      });
     </code>
   </pre>
 
