@@ -26,9 +26,4 @@ app.get(`/:type`, (req, res) => {
   res.json(jsonData[type]);
 });
 
-app.get(`/:type/:id`, (req, res) => {
-  let { type, id } = req.params;
-  res.json(jsonData[type][id]);
-});
-
 app.listen(PORT);
