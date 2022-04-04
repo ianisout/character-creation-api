@@ -1,47 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Rubik:wght@300;400;500;700&family=Space+Mono&display=swap');
 
 body {
-  background-color: whitesmoke;
+  background-color: #1e1e1e;
   font-family: 'Open Sans', sans-serif;
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  color: white;
+  font-weight: 300;
+  overflow-x: hidden;
+  padding-bottom: 30px;
 }
 
 .side-menu {
-  width: 150px;
+  width: 165px;
   height: 100vh;
   position: fixed;
-  background-color: rgb(67, 67, 67);
-  color: rgb(206, 206, 206);
+  padding-top: 40px;
+  background-color: #181818;
   margin-right: 0;
 }
 
 .side-menu ul {
   list-style-type: none;
-  padding: 0;
+  padding: 0 0 16px 0;
+}
+
+.unclickable {
+  cursor: default !important;
 }
 
 .side-menu li {
   cursor: pointer;
-  padding: 6px 8px;
+  padding: 4px 6px;
   max-width: 180px;
   font-size: 16px;
+  color: rgb(182, 182, 182);
 }
 
 .side-menu a {
   margin: 20px;
   -webkit-transition: color 0.1s;
   transition: color 0.1s;
+  text-decoration: none;
 }
 
-.side-menu a:hover {
+.side-menu li:hover, .light-theme:hover {
   color: #fefefe;
 }
 
+.light-theme {
+  color: rgb(182, 182, 182);;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer
+}
 
-.side-menu li:first-child {
-  border: none;
-  padding: 16px 0 30px 0;
+.light-theme svg{
+  margin-right: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.example-img {
+  margin-bottom: 30px;
+}
+
+.example-img img {
+  width: 150px;
+}
+
+.main-container a, .main-container a:visited {
+  color: #5e9eff;
+  text-decoration: none;
 }
 
 .title-text {
@@ -49,19 +90,26 @@ body {
   font-weight: 600;
 }
 
+.title-text:first-child {
+  cursor: pointer;
+  color: #fefefe;
+}
+
 .main-container {
   display: flex;
   margin-left: 250px;
   margin-top: 25px;
   flex-direction: column;
+  max-width: 750px;
 }
 
-h1 {
-  margin-bottom: 50px;
+.sub-text {
+  color: rgb(184, 184, 184);
+  margin-top: 0;
 }
 
 .info-section pre {
-  margin: -12px 0 0 0;
+  margin: -10px 0 0 0;
 }
 
 #useful-h2 {
@@ -69,18 +117,17 @@ h1 {
 }
 
 .info-section p {
-  margin-bottom: 40px;
+  margin: 1px 0 30px 0;
 }
 
 .info-section code {
-  /* padding: 10px; */
-  background-color: rgb(55, 55, 55);;
+  padding: 18px;
+  background-color: rgb(55, 55, 55);
   font-size: 14px;
   color: whitesmoke;
 }
 
 pre code {
-  background-color: #eee;
   border: 1px solid #999;
   display: block;
   padding: 10px 20px 10px 0;
@@ -99,25 +146,25 @@ pre code {
 
 .img-item {
   width: 172;
-  height: 172px;
+  height: 150px;
   margin: 5px;
   background: white;
 }
 
 .text-item {
-  font-size: 13px;
-  font-family: 'Space Mono', monospace;
+  font-size: 14px;
   background: rgb(55, 55, 55);
+  border: 1px solid #999;
+  color: whitesmoke;
   margin: 5px;
-  padding: 19px 10px 1px 10px;
-  color: azure;
+  padding: 20px 10px 1px 10px;
   width: fit-content;
   resize: none;
-  white-space: nowrap;
   width: 700px;
-  height: 152px;
+  height: 132px;
   overflow-x: scroll;
-  overflow-y: hidden;
+  white-space: nowrap;
+  line-height: 1.3rem;
 }
 
 .coding-area {
@@ -126,7 +173,7 @@ pre code {
   background: rgb(55, 55, 55);
   margin: 5px;
   padding: 10px;
-  color: azure;
+  color: whitesmoke;
   width: fit-content;
   white-space: nowrap;
   overflow-x: scroll;
@@ -142,8 +189,6 @@ pre code {
   background: rgb(172, 172, 172);
 }
 
-
-/* CODE COLORING */
 .param {
   color: #7aa7eb;
 }
@@ -156,5 +201,33 @@ pre code {
   color: #c49144;
 }
 
+footer {
+  position: fixed;
+  width: fit-content;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.123);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  padding-right: 8px;
+  width: 16px;
+}
+
+footer a:hover {
+  color: #b8b8b8;
+  text-decoration: none;
+}
 
 /* CHANGE TEXT SELECTION COLOR */

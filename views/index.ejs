@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>API for character creation</title>
     <link type="text/css" rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <script defer src="../script.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body onload="inicio()">
     <div class="side-menu">
       <ul>
-        <li>
-          <a onclick="inicio()" class="title-text"><strong>Information</strong></a>
-        </li>
+          <a onclick="inicio()" class="title-text" href="#">
+            <strong>General Info</strong>
+          </a>
+      </ul>
+      <ul>
+        <a class="title-text unclickable"><strong>Details</strong></a>
         <li><a onclick="apiCall(this.innerText)">Beard</a></li>
         <li><a onclick="apiCall(this.innerText)">Dress</a></li>
         <li><a onclick="apiCall(this.innerText)">Equipment</a></li>
@@ -30,15 +34,43 @@
         <li><a onclick="apiCall(this.innerText)">Sword</a></li>
         <li><a onclick="apiCall(this.innerText)">Tie</a></li>
       </ul>
+      <div class="light-theme" onclick="noLightTheme()">
+      <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor">
+        <circle cx="12" cy="12" r="5"></circle>
+        <path d="M12 1v2"></path>
+        <path d="M12 21v2"></path>
+        <path d="M4.22 4.22l1.42 1.42"></path>
+        <path d="M18.36 18.36l1.42 1.42"></path>
+        <path d="M1 12h2"></path>
+        <path d="M21 12h2"></path>
+        <path d="M4.22 19.78l1.42-1.42"></path>
+        <path d="M18.36 5.64l1.42-1.42"></path>
+      </svg>
+      <p>Light theme</p>
     </div>
-    <div class="main-container">
-      <h1>Pixel Character Creation API</h1>
-
-      <div class="info-section">
-        
+    </div>
+    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor">
+              <circle cx="12" cy="12" r="5"></circle>
+              <path d="M12 1v2"></path>
+              <path d="M12 21v2"></path>
+              <path d="M4.22 4.22l1.42 1.42"></path>
+              <path d="M18.36 18.36l1.42 1.42"></path>
+              <path d="M1 12h2"></path>
+              <path d="M21 12h2"></path>
+              <path d="M4.22 19.78l1.42-1.42"></path>
+              <path d="M18.36 5.64l1.42-1.42"></path>
+            </svg>
+    <div class="main-container" id="main-container">
+      <div class="main-title">
+        <h1 style="margin-bottom: 0;">Pixel Character Creation API</h1>
       </div>
+
+      <div class="info-section"></div>
 
       <code class="oncoming-data"></code>
     </div>
+    <footer>
+        <a href="https://github.com/ianisout" target="_blank"><img src="img/GitHub-Mark-Light-32px.png" alt="github"> ianisout</a>
+      </footer>
   </body>
 </html>
