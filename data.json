@@ -76,7 +76,7 @@
       "id": "dress1",
       "type": "Dress",
       "name": "Red Dress",
-      "description": "Professional and slick. No, it does not make you look fat.",
+      "description": "Professional and slick. It does not make you look fat.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/dress/dress1.png"
     },
     {
@@ -163,14 +163,14 @@
     {
       "id": "eyes3",
       "type": "Eyes",
-      "name": "I think I've see a ghos eyes.",
+      "name": "I think I've see a ghost eyes.",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/eyes/eyes3.png"
     },
     {
       "id": "eyes4",
       "type": "Eyes",
-      "name": "Oh my, would you look at the time eyes.",
+      "name": "'Oh my, would you look at the time!' eyes.",
       "description": "",
       "img_url": "https://character-creation-api.s3.amazonaws.com/eyes/eyes4.png"
     }
@@ -179,8 +179,8 @@
     {
       "id": "glasses1",
       "type": "glasses",
-      "name": "",
-      "description": "",
+      "name": "Common Pair of Glasses",
+      "description": "If you're reading this: 1) you already have a pair; 2) you don't need one.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/glasses/glasses1.png"
     }
   ],
@@ -188,64 +188,64 @@
     {
       "id": "hairback1",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Long Black Back Hair",
+      "description": "It always looks like it's sort of windy.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback1.png"
     },
     {
       "id": "hairback2",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Straight Black Back Hair",
+      "description": "Enough to hide the back of your neck.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback2.png"
     },
     {
       "id": "hairback3",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Short Black Back Hair",
+      "description": "Looks great but requires constant trimming.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback3.png"
     },
     {
       "id": "hairback4",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Long Brown Back Hair",
+      "description": "It always looks like it's sort of windy.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback4.png"
     },
     {
       "id": "hairback5",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Straight Brown Back Hair",
+      "description": "Enough to hide the back of your neck.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback5.png"
     },
     {
       "id": "hairback6",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Short Brown Back Hair",
+      "description": "Looks great but requires constant trimming.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback6.png"
     },
     {
       "id": "hairback7",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Long Blonde Back Hair",
+      "description": "It always looks like it's sort of windy.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback7.png"
     },
     {
       "id": "hairback8",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Straight Blonde Back Hair",
+      "description": "Enough to hide the back of your neck.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback8.png"
     },
     {
       "id": "hairback9",
       "type": "Hairback",
-      "name": "",
-      "description": "",
+      "name": "Short Blonde Back Hair",
+      "description": "Looks great but requires constant trimming.",
       "img_url": "https://character-creation-api.s3.amazonaws.com/hairback/hairback9.png"
     }
   ],
