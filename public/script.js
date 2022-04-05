@@ -1,23 +1,17 @@
 const container = document.querySelector('.oncoming-data');
 const infoSection = document.querySelector('.info-section');
 const mainTitle = document.querySelector('.main-title');
-const sub = document.createElement('p');
-sub.classList.add('sub-text');
-sub.innerText =
-  'This may take a second to load on the first go. Heroku sleeps our stuff when we use it "freely"... $.$';
 
 function apiCall(param) {
   const paramParagraph = document.createElement('div');
-  paramParagraph.innerHTML = `<p>Parameter for API calling: <strong>${param
+  paramParagraph.innerHTML = `<p style="margin: 26px 2px;">Parameter for API calling: <br>
+  <span style="color: rgb(184, 184, 184);"><i>https://character-creation-api.herokuapp.com/</span><strong>${param
     .toLowerCase()
-    .replace(/\s/g, '')}</strong></p>`;
+    .replace(/\s/g, '')}</strong></i>`;
   container.innerHTML = '';
   infoSection.innerHTML = '';
-
   infoSection.appendChild(paramParagraph);
-  infoSection.appendChild(sub);
-  mainTitle.appendChild(sub);
-  if (sub && sub.length < 1) mainTitle.appendChild(sub);
+
   fetch(
     `https://character-creation-api.herokuapp.com/${param
       .toLowerCase()
@@ -25,8 +19,6 @@ function apiCall(param) {
   )
     .then((response) => response.json())
     .then((data) => {
-      console.log(sub.length);
-
       for (let i = 0; i < data.length; i++) {
         const divItem = document.createElement('div');
         const img = document.createElement('img');
@@ -53,7 +45,6 @@ function apiCall(param) {
 
 function inicio() {
   container.innerHTML = '';
-  sub.remove();
   infoSection.innerHTML = `
     <p class="sub-text">Customizable avatar data</p>
     
@@ -104,5 +95,7 @@ function inicio() {
 }
 
 function noLightTheme() {
-  alert('Ewwww! Light theme user? Have you no shame? No light theme for you. Please refrain from using them — they strain your eyes (I think)');
+  alert(
+    'Ewwww! Light theme user? Have you no shame? No light theme for you. Please refrain from using them — they strain your eyes (I think)'
+  );
 }

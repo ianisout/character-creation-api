@@ -158,10 +158,9 @@ pre code {
   color: whitesmoke;
   margin: 5px;
   padding: 20px 10px 1px 10px;
-  width: fit-content;
   resize: none;
   width: 700px;
-  height: 132px;
+  height: 128px;
   overflow-x: scroll;
   white-space: nowrap;
   line-height: 1.3rem;
